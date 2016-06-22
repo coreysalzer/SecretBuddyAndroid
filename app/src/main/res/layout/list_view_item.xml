@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ToggleButton
+        android:id="@+id/toggle_buddy_button"
+        android:onClick="toggleBuddy"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textOn="@string/hide_buddy_button"
+        android:textOff="@string/show_buddy_button" />
+
+    <ImageView
+        android:id ="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:maxWidth="80dp"
+        android:singleLine="false"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/picture"
+        android:layout_toEndOf="@id/picture"
+        android:layout_toLeftOf="@id/toggle_buddy_button"
+        android:layout_toStartOf="@id/toggle_buddy_button"/>
+
+    <ImageView
+        android:id ="@+id/buddy_picture"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/buddy_name"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:singleLine="false"
+        android:textAlignment="viewEnd"
+        android:gravity="end"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/toggle_buddy_button"
+        android:layout_toEndOf="@id/toggle_buddy_button"
+        android:layout_toLeftOf="@id/buddy_picture"
+        android:layout_toStartOf="@id/buddy_picture"/>
+
+</RelativeLayout>

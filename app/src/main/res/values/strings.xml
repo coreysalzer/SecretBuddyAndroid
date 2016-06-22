@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Secret Buddy App</string>
+    <string name="create_pairs_button">Create Pairs</string>
+    <string name="add_buddies_button">Add Buddies</string>
+    <string name="show_buddy_button">Show Buddy</string>
+    <string name="send_sms_button">Text Buddies</string>
+    <string name="hide_buddy_button">Hide Buddy</string>
+    <string name="add_selected_buddies_button">Add Selected Buddies</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_remove_buddies">Add/Remove Buddies</string>
+    <string name="no_contacts_error_message">Please add contacts to your contact list to be able to add buddies</string>
+    <string name="ok">OK</string>
+
+</resources>

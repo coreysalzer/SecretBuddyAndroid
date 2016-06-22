@@ -1,0 +1,43 @@
+# Maven
+target
+pom.xml.*
+release.properties
+gen-external-apklibs
+
+# Gradle
+.gradle
+build/
+local.properties
+reports
+gradlew.bat
+
+# Eclipse
+.classpath
+.project
+.settings
+eclipsebin
+
+# IntelliJ IDEA
+.idea/
+!.idea/vcs.xml
+!.idea/runConfigurations/
+!.idea/scopes/
+*.iml
+*.ipl
+*.iws
+classes/
+idea-classes/
+coverage-error.log
+
+# Robolectric
+tmp
+
+# Steve Jobs
+.DS_Store
+
+# Emacs
+*~
+.#*
+
+# Vim
+*.sw[op]
